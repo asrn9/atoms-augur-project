@@ -1,10 +1,13 @@
 {
   "ExpandedNodes": [
     "",
+    "\\augurface",
+    "\\augurface\\public",
+    "\\augurface\\src",
+    "\\augurface\\src\\router",
     "\\frontend",
-    "\\frontend\\src\\components\\layout",
-    "\\frontend\\tests\\unit",
-    "\\scripts\\control"
+    "\\frontend\\src",
+    "\\frontend\\src\\assets"
   ],
   "PreviewInSolutionExplorer": false
 }

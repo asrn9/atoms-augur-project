@@ -30,6 +30,9 @@ const defaultMenuItems = [{
 }, {
   title: 'Submit an Issue',
   to: 'https://github.com/chaoss/augur/issues/new/choose',
+}, {
+  title: 'Mizzou',
+  to: 'https://missouri.edu/',
 }];
 export default {
   name: 'main-footer',
