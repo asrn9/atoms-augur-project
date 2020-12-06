@@ -1,13 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\augurface",
-    "\\augurface\\public",
-    "\\augurface\\src",
-    "\\augurface\\src\\router",
-    "\\frontend",
-    "\\frontend\\src",
-    "\\frontend\\src\\assets"
+    "\\augur"
   ],
+  "SelectedNode": "\\schema\\create_schema.sql",
   "PreviewInSolutionExplorer": false
 }
