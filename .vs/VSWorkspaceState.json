@@ -1,13 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\augurface",
-    "\\augurface\\public",
-    "\\augurface\\src",
-    "\\augurface\\src\\router",
     "\\frontend",
     "\\frontend\\src",
-    "\\frontend\\src\\assets"
+    "\\frontend\\src\\assets",
+    "\\frontend\\src\\components",
+    "\\frontend\\src\\components\\layout",
+    "\\frontend\\src\\components\\layout\\MainSidebar"
   ],
   "PreviewInSolutionExplorer": false
 }

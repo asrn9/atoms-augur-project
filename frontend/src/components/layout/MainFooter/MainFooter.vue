@@ -34,6 +34,9 @@ const defaultMenuItems = [{
 }, {
   title: 'Mizzou',
   to: 'https://missouri.edu/',
+}, {
+  title: 'Atoms GitHub',
+  to: 'https://github.com/asrn9/atoms-augur-project',
 }];
 export default {
   name: 'main-footer',
