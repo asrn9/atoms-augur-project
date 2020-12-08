@@ -36,6 +36,16 @@
                       ></div>
                     </div>
                   </th>
+                    <th scope="col" class="border-0" v-on:click="sortTable('rg_status')">
+                    <div class="row">
+                      <div class="col col-9">Status</div>
+                      <div
+                        class="arrow"
+                        v-bind:class="ascending ? 'arrow_up' : 'arrow_down'"
+                        v-if="'rg_status' == sortColumn"
+                      ></div>
+                    </div>
+                  </th>
                   <th scope="col" class="border-0" v-on:click="sortTable('rg_description')">
                     <div class="row">
                       <div class="col col-9">Description</div>
@@ -90,6 +100,7 @@
                   <td>
                     <a href="#" @click="onRepoGroup(group)">{{ group.rg_name }}</a>
                   </td>
+                  <td>{{ group.rg_status }}</td>
                   <td>{{ group.rg_description }}</td>
                   <td>{{ group.rg_website }}</td>
                   <td>{{ group.rg_last_modified }}</td>

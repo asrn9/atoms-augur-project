@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\augur"
+    "\\frontend",
+    "\\frontend\\src",
+    "\\frontend\\src\\assets",
+    "\\frontend\\src\\components",
+    "\\frontend\\src\\components\\layout",
+    "\\frontend\\src\\components\\layout\\MainSidebar"
   ],
-  "SelectedNode": "\\schema\\create_schema.sql",
   "PreviewInSolutionExplorer": false
 }
