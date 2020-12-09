@@ -1,12 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\frontend",
-    "\\frontend\\src",
-    "\\frontend\\src\\assets",
-    "\\frontend\\src\\components",
-    "\\frontend\\src\\components\\layout",
-    "\\frontend\\src\\components\\layout\\MainSidebar"
+    "\\frontend"
   ],
   "PreviewInSolutionExplorer": false
 }
