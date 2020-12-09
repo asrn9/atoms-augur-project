@@ -32,6 +32,12 @@
                       <div class="arrow" v-bind:class="ascending ? 'arrow_up' : 'arrow_down'" v-if="'url' == sortColumn"></div>
                     </div>
                   </th>
+                <th scope="col" class="border-0" v-on:click="sortTable('rg_status')">
+                    <div class="row">
+                      <div class="col col-9">Repo Status</div>
+                      <div class="arrow" v-bind:class="ascending ? 'arrow_up' : 'arrow_down'" v-if="'rg_status' == sortColumn"></div>
+                    </div>
+                  </th>
                   <th scope="col" class="border-0" v-on:click="sortTable('rg_name')">
                     <div class="row">
                       <div class="col col-9">Repo Group Name</div>
