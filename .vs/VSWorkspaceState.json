@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    "\\frontend"
+    "",
+    "\\frontend",
+    "\\frontend\\src\\views"
   ],
+  "SelectedNode": "\\frontend\\ATOMSREADME.md",
   "PreviewInSolutionExplorer": false
 }
