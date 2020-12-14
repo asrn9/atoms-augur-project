@@ -89,7 +89,6 @@
                   <td>
                     <a href="#" @click="onRepoGroup(group)">{{ group.rg_name }}</a>
                   </td>
-                  <td>{{ group.rg_status }}</td>
                   <td>{{ group.rg_description }}</td>
                   <td>{{ group.rg_website }}</td>
                   <td>{{ group.rg_last_modified }}</td>
