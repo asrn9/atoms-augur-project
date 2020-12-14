@@ -33,6 +33,12 @@
                       <div class="arrow" v-bind:class="ascending ? 'arrow_up' : 'arrow_down'" v-if="'rg_name' == sortColumn"></div>
                     </div>
                   </th>
+                <th scope="col" class="border-0" v-on:click="sortTable('rg_status')">
+                    <div class="row">
+                      <div class="col col-9">Repo Status</div>
+                      <div class="arrow" v-bind:class="ascending ? 'arrow_up' : 'arrow_down'" v-if="'rg_status' == sortColumn"></div>
+                    </div>
+                  </th>
                   <!-- <th width="30%" scope="col" class="border-0" v-on:click="sortTable('description')">
                     <div class="row">
                       <div class="col col-9">Repo Description</div>
@@ -72,6 +78,7 @@
                     <a href="#" @click="onGitRepo(repo)">{{ repo.url }}</a>
                   </td>
                   <td>{{ repo.rg_name }}</td>
+                  <td>{{ repo.rg_status }}</td>
                   <!-- <td>{{ repo.description }}</td> -->
                   <!-- <td>{{ repo.repo_count }}</td> -->
                   <td>{{ repo.commits_all_time }}</td>
